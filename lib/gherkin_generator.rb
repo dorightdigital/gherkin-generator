@@ -1,8 +1,8 @@
 class GherkinGenerator
   attr_accessor :description
 
-  def initialize(str)
-    @str = str
+  def initialize(feature_name)
+    @feature_name = feature_name
     @scenarios = []
     @tag = ''
   end
@@ -23,7 +23,7 @@ class GherkinGenerator
   end
 
   def to_gherkin
-    feature = 'Feature: ' + @str
+    feature = 'Feature: ' + @feature_name
     desc = @description.nil? ? '' : "\n\t" + @description.sub("\n", "\n\t")
     scenarios = ''
 
