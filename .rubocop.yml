@@ -1,0 +1,11 @@
+Documentation:
+  Enabled: false
+
+Style/Tab:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
