@@ -1,5 +1,5 @@
 require 'rspec'
-require __dir__ + '/../src/gherkin_generator'
+require __dir__ + '/../lib/gherkin_generator'
 
 describe 'Gherkin Formatter' do
 

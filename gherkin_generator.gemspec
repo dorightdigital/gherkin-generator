@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
       'Gherkin Feature Files programmatically.'
   s.authors = 'Mat Carey'
   s.email = 'opensource+gherkin-formatter@dorightdigital.com'
+  s.homepage = 'https://github.com/dorightdigital/gherkin-generator'
   s.license = 'MIT'
-  s.files = ["lib", "lib/gherkin_generator.rb"]
+  s.files = ['lib', 'lib/gherkin_generator.rb']
 end
