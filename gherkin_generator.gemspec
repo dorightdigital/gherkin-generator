@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = 'gherkin_generator'
   s.summary = 'Gherkin Generator'
-  s.version = '1.0.3'
-  s.date = '2014-07-30'
+  s.version = '1.0.4'
+  s.date = '2014-07-31'
   s.description = 'A simple tool for generating ' \
       'Gherkin Feature Files programmatically.'
   s.authors = 'Mat Carey'
